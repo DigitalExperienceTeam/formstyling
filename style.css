@@ -22,17 +22,22 @@ background: #f6f0ef;
     margin: 0 auto 60px auto;
 }
 
-#dform_container label {
+#dform_container .label, #dform_container label {
 font-size: 22px;
-margin-bottom: 5px
+ margin-bottom: 7px;
 }
 
 #dform_container legend {
         color: #002e6f !important;
-		font-size: 20px;	
+		font-size: 20px;
+		 white-space: normal; 
+		 width: 100%;
 }
 
-
+legend span {
+    display:block;
+    width: 100%;
+}
 
 .file-gov-text, 
 #dform_container html, 
@@ -1386,15 +1391,6 @@ background-color: #d8e3ed;
 }
 
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px){
     .text-align-left > .one, .text-align-center > .one, .text-align-right > .one,.text-align-left > .two, .text-align-center > .two, .text-align-right > .two,.text-align-left > .three, .text-align-center > .three, .text-align-right > .three,.text-align-left > .four, .text-align-center > .four, .text-align-right > .four,.text-align-left > .five, .text-align-center > .five, .text-align-right > .five,.text-align-left > .six, .text-align-center > .six, .text-align-right > .six,.text-align-left > .seven, .text-align-center > .seven, .text-align-right > .seven,.text-align-left > .eight, .text-align-center > .eight, .text-align-right > .eight,.text-align-left > .nine, .text-align-center > .nine, .text-align-right > .nine,.text-align-left > .ten, .text-align-center > .ten, .text-align-right > .ten,.text-align-left > .eleven, .text-align-center > .eleven, .text-align-right > .eleven,.text-align-left > legend, .text-align-center > legend, .text-align-right > legend{
         text-align: left !important;
@@ -1816,4 +1812,22 @@ var {
 
 #dform_container .helptext {
   font-style: normal !important
+}
+
+/*
+-----------------------------------------------
+SCC MEDIA RULES
+-----------------------------------------------
+*/
+
+@media only screen and (max-width: 700px) {
+
+.dform_page {
+    width: 90%;
+}
+
+
+#dform_container input, #dform_container select, #dform_container textarea {
+    min-width: 100%;
+}
 }
