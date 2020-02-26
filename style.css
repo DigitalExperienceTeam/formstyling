@@ -18,6 +18,11 @@ margin: 0 auto;
 background: #f6f0ef;
 }
 
+
+#dform_container p {
+    font-size: 20px;
+}
+
 #dform_container .container {
     margin: 0 auto 60px auto;
 }
