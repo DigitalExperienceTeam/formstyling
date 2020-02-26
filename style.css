@@ -19,7 +19,7 @@ background: #f6f0ef;
 }
 
 
-#dform_container p {
+#dform_container p, li {
     font-size: 20px;
     line-height: 130%;
 }
