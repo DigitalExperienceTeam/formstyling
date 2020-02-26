@@ -27,14 +27,18 @@ font-size: 22px;
  margin-bottom: 7px;
 }
 
-#dform_container legend {
-        color: #002e6f !important;
-		font-size: 20px;
-		 white-space: normal; 
-		 width: 100%;
+label span {
+    margin-left: 2px;
 }
 
-legend span {
+#dform_container legend {
+    color: #002e6f !important;
+	font-size: 20px;
+	white-space: normal; 
+	width: 100%;
+}
+
+#dform_container legend span {
     display:block;
     width: 100%;
 }
@@ -71,6 +75,7 @@ NAVIGATION
 position: absolute;
 }
 
+/*
 -----------------------------------------------
 HEADINGS
 -----------------------------------------------
@@ -476,7 +481,7 @@ padding: 0 5px;
   position: absolute;
   z-index: 0;
   height: 42px;
-  width: 100%; /*Ã­ Â½Ã­Â³Â±*/
+  max-width: 188px;
   top: 0.6px;
   cursor: pointer;
   color: #fff;
