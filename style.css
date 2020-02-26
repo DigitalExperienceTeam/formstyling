@@ -14,14 +14,21 @@ width: 50%;
 margin: 0 auto;
 }
 
+
+
 #dform_container {
 background: #f6f0ef;
 }
 
-
-#dform_container p, li {
+#dform_container p {
     font-size: 20px;
     line-height: 130%;
+}
+
+#dform_container li {
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 5px;
 }
 
 #dform_container .container {
@@ -72,9 +79,16 @@ label span {
     min-width: 400px;
     font-size: 1.2rem;
 }
+
+#dform_container .helptext {
+    color: #222;
+    margin-bottom: 5px;
+}
+    
 /*
 
 
+}
 -----------------------------------------------
 NAVIGATION
 -----------------------------------------------
@@ -125,8 +139,6 @@ DATE FIELD
 input[type='date'] {
 text-transform: uppercase;
 }
-
-
 
 
 /*
