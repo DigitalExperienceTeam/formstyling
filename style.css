@@ -21,6 +21,7 @@ background: #f6f0ef;
 
 #dform_container p {
     font-size: 20px;
+    line-height: 130%;
 }
 
 #dform_container .container {
@@ -47,6 +48,8 @@ label span {
 #dform_container legend span {
     display:block;
     width: 100%;
+    line-height: 130%;
+    margin-bottom: 7px;
 }
 
 .file-gov-text, 
