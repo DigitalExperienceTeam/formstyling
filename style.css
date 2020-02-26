@@ -469,8 +469,8 @@ padding: 0 5px;
 
 #dform_container .dform_filenames span.file_delete:hover {
  background: #fff;
- color: #e60000 !important;
- border: 1px solid #e60000;
+ color: #a52a2a !important;
+ border: 1px solid #a52a2a;
 }
 
 /*KS: removes the >> before file names*/
