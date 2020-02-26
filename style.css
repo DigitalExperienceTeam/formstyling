@@ -1076,7 +1076,8 @@ margin-bottom: 25px !important;
 
 #dform_container .dform_widget_type_checkbox label {
     color: #222 !important;
-	font-size: 20px
+	font-size: 20px;
+	margin-top: 4px;
 }
 
 
