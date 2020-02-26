@@ -439,6 +439,10 @@ KS: file-gov Start
     margin-bottom: 2px !important;
 }
 
+.file-gov input:disabled {
+    display:none;
+}
+
 .file-gov .dform_filenames {
 margin-top: 7px;
 }
@@ -566,6 +570,27 @@ text-transform: capitalize;
 display: none;
 }
 
+#dform_container .otom_delete {
+    font-family: SpartaIcons !important;
+}
+
+input:disabled {
+    cursor: auto;
+}
+
+input:disabled ~ .file-gov-icon {
+    width: 700px !important;
+    background: transparent;
+    box-shadow: none;
+    height: 0;
+}
+
+input:disabled ~ .file-gov-icon .file-gov-text {
+    margin-left: 0;
+    color: #a52a2a !important;
+   font-weight: bold !important;
+   padding-left: 2px;
+}
 
 @media (min-width: 769px){
     /*.file-gov .dform_validationMessage{
