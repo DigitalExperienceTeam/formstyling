@@ -1338,7 +1338,7 @@ PRIVACY NOTICE
 
 .privacy .box {
 border-left: 20px solid #e60054;
-padding-left: 25px;
+padding-left: 25px !important;
 position: relative;
 }
 
@@ -1365,7 +1365,6 @@ margin-bottom:0
 #dform_container .privacy .label, #dform_container .privacy label {
 margin-bottom: 0;
 font-size: 20px;
-margin-top: 4px;
 }
 
 /* 
