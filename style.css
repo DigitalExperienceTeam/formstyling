@@ -52,7 +52,7 @@ label span {
 	width: 100%;
 }
 
-#dform_container legend span:first-of-type {
+#dform_container legend > span {
     display:block;
     width: 100%;
     line-height: 130%;
