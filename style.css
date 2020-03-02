@@ -1873,9 +1873,13 @@ var {
 
 /*
 -----------------------------------------------
-ONE TOO MANY
+FIELDSET & ONE TOO MANY
 -----------------------------------------------
 */
+
+#dform_container fieldset {
+    padding-left: 0;
+}
 
  #dform_container div[data-type=onetomany] {
      border: none;
