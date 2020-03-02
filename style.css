@@ -330,7 +330,7 @@ KS: area Start
     }
     .area-gov > fieldset > legend, .cs-gov legend, .ss-gov legend, .ps-gov legend, .os-gov legend, .search-gov legend{
         left: -10px !important;
-        padding-left: 20px !important;
+        padding-left: 10px !important;
     }
     .area-no-group > fieldset, .cs-no-group fieldset, .ss-no-group fieldset, .ps-no-group fieldset, .os-no-group fieldset, .search-no-group fieldset{
         border-left: 0 !important;
@@ -1917,8 +1917,13 @@ SCC MEDIA RULES
 }
 
 
-#dform_container input, #dform_container select, #dform_container textarea {
+#dform_container input, #dform_container select, #dform_container textarea, #dform_container .searchwidget select {
     min-width: 100%;
+}
+
+
+.dform_widget_search_closeresults {
+    float: right;
 }
 
 }
