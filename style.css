@@ -282,6 +282,11 @@ KS: searches - Start
     font-weight: bold !important;
 }
 
+.dform_widget_search_closeresults:after {
+    content: "Back";
+    font-family: "franklin-gothic-urw",sans-serif;
+}
+
 /*
 -----------------------------------------------
 KS: area Start
