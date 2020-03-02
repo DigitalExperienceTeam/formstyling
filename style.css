@@ -216,7 +216,7 @@ background: rgb(82, 122, 161) !important;
 color: #fff !important;
 border-radius: 10px !important;
 transition: 0.4s all !important;
-box-shadow: 3px 3px !important;
+box-shadow: 3px 3px #ccc !important;
 font-size: 20px !important;
 border: none !important;
 padding: 0.4em 1em !important;
@@ -1890,8 +1890,9 @@ SCC MEDIA RULES
    
  #dform_container .dform_filenames > span {
      width: 100%;
+     margin-bottom: 10px;
  }
      
  }
 
-}
+box-shadow: 3px 3px !important;
