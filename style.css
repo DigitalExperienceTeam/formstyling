@@ -1882,4 +1882,16 @@ SCC MEDIA RULES
 #dform_container input, #dform_container select, #dform_container textarea {
     min-width: 100%;
 }
+
+}
+
+@media only screen and (max-width: 450px) {
+    
+   
+ #dform_container .dform_filenames > span {
+     width: 100%;
+ }
+     
+ }
+
 }
