@@ -1470,6 +1470,10 @@ SELECT 2
   }
 
 
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-right:30px;
+}
+
 /*select 2- End
 -----------------------------------------------*/
 
@@ -1991,6 +1995,18 @@ SCC MEDIA RULES
 
 #dform_container input, #dform_container select, #dform_container textarea, #dform_container .searchwidget select {
     min-width: 100%;
+}
+
+.select2 {
+  width: 100% !important;
+}
+
+.select2-container--classic .select2-selection--single {
+    width: 100%;
+}
+
+.select2-container {
+    width: 0;
 }
 
 
