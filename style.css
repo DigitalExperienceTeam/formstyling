@@ -288,9 +288,7 @@ KS: searches - Start
 }
 
 
-.dform_widget_search_results {
-    width: 400px;
-}
+
 /*
 -----------------------------------------------
 KS: area Start
@@ -1915,6 +1913,10 @@ SCC MEDIA RULES
 */
 
 @media only screen and (max-width: 1186px) {
+    
+.dform_widget_search_results {
+    width: 400px;
+}    
     
 .dform_widget_search_closeresults {
     float: right;
