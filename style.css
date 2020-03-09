@@ -526,6 +526,7 @@ padding: 0 5px;
   -webkit-transition: background 0.4s;
   -moz-transition: background 0.5s;
   -o-transition: background 0.5s;
+  padding-top: 3px;
 }
 
 .file-gov-icon-a {
