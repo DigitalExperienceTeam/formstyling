@@ -1991,7 +1991,7 @@ SCC MEDIA RULES
 }
 
 
-#dform_container input, #dform_container select, #dform_container textarea, #dform_container .searchwidget select {
+#dform_container input, #dform_container select, #dform_container textarea, #dform_container .searchwidget select, .select2-container--classic .select2-selection--single {
     min-width: 100%;
 }
 
