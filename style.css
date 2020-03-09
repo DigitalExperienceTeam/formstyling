@@ -1441,7 +1441,6 @@ SELECT 2
     width: 30px;
     top: 2px;
     right: 2px;
-    
 }
 
 .select2-container--classic .select2-selection--single .select2-selection__arrow b {
@@ -1468,7 +1467,6 @@ SELECT 2
   
 .select2-container--classic .select2-selection--single:focus {
    border: 2px solid #438dcc;
-      
   }
 
 
@@ -1995,10 +1993,6 @@ SCC MEDIA RULES
     min-width: 100%;
 }
 
-
-.select2-container--classic .select2-selection--single {
-    width: 90%;
-}
 
 }
 
