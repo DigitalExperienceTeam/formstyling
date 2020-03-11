@@ -1147,9 +1147,6 @@ background: #fff;
   display: block;
 }
 
-
-
-
 .chk-gov > div .chk-check:after {
     left: 7px;
     top: -2px;
@@ -1177,9 +1174,10 @@ background: #fff;
 
 /*KS: Checkbox error message is dirrent*/
 .chk-gov  .dform_validationMessage{
-    position: absolute;
+    position: static !important;
     top: -22px;
     left: 0px;
+    margin-left: -33px;
     font-size: 1rem !important;
     font-weight: bold !important;
     /*padding-bottom: 24px !important;*/
