@@ -2123,8 +2123,8 @@ SCC MEDIA RULES
     max-width: 100% !important;
 }
 
-.select2-container {
-    width: 0;
+.select2-search--dropdown {
+    max-width: 100% !important;
 }
 
 
