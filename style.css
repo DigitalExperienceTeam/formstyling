@@ -2120,7 +2120,7 @@ SCC MEDIA RULES
 }
 
 .select2-container--classic {
-    width: 100% !important;
+    max-width: 100% !important;
 }
 
 .select2-container {
