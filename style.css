@@ -2119,7 +2119,7 @@ SCC MEDIA RULES
   width: 100% !important;
 }
 
-.select2-container--classic .select2-selection--single {
+.select2-container--classic {
     width: 100%;
 }
 
