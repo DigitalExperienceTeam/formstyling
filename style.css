@@ -2111,17 +2111,17 @@ SCC MEDIA RULES
 }
 
 
-#dform_container input, #dform_container select, #dform_container textarea, #dform_container .searchwidget select {
-    min-width: 100%;
-}
+/*#dform_container input, #dform_container select, #dform_container textarea, #dform_container .searchwidget select {*/
+/*    min-width: 100%;*/
+/*}*/
 
-.select2 {
-  max-width: 100% !important;
-}
+/*.select2 {*/
+/*  max-width: 100% !important;*/
+/*}*/
 
-.select2-container--classic {
-    max-width: 100% !important;
-}
+/*.select2-container--classic {*/
+/*    max-width: 100% !important;*/
+/*}*/
 
 
 
