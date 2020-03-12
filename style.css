@@ -777,7 +777,7 @@ margin-bottom: 20px !important;
 
 /*KS: style when field with error is focused*/
 .txta-gov textarea.dform_fielderror:focus{
-    box-shadow: 0 0 0px 3px #FFBF47 !important;
+    box-shadow: 0 0 0px 3px #438dcc !important;
     border-color: #d45252 !important;
 }
 
@@ -2116,7 +2116,7 @@ SCC MEDIA RULES
 }
 
 .select2 {
-  width: 100% !important;
+  max-width: 100% !important;
 }
 
 .select2-container--classic {
