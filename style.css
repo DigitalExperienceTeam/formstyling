@@ -1476,7 +1476,22 @@ SELECT 2
 }
 
 /*select 2- End
+
 -----------------------------------------------*/
+
+
+/* 
+-----------------------------------------------
+ERROR MESSAGES AT TOP
+-----------------------------------------------
+*/
+
+
+
+#dform_container #dform_errorMessage, #dform_container #dform_successMessage, #dform_container #dform_warningMessage, #dform_container #dform_infoMessage {
+    border: 1px solid #000;
+    font-weight: bold;
+}
 
 
 
