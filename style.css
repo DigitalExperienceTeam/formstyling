@@ -1613,6 +1613,40 @@ ul li.checked::after {
 -----------------------------------------------*/
 
 
+/* 
+-----------------------------------------------
+AREAS
+-----------------------------------------------
+*/
+
+#dform_container .nine input, #dform_container .nine select, #dform_container .nine textarea {
+    min-width: 570px;
+}
+
+
+#dform_container .six input, #dform_container .six select, #dform_container .six textarea {
+    min-width: 370px;
+}
+
+#dform_container .three input, #dform_container .three select, #dform_container .three textarea {
+    min-width: 170px;
+}
+
+#dform_container .two input, #dform_container .two select, #dform_container .two textarea {
+    min-width: 103px;
+}
+
+
+#dform_container .one input, #dform_container .one select, #dform_container .one textarea {
+    min-width: 42px;
+}
+
+
+/*areas - End
+-----------------------------------------------*/
+
+
+
 .margin-auto{
     margin: auto !important;
 }
