@@ -1209,7 +1209,7 @@ KS: Custom gov multi-checkbox - Start
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
   /*cursor: pointer;*/
   font-size: 1rem;
   -webkit-user-select: none;
@@ -1221,7 +1221,11 @@ KS: Custom gov multi-checkbox - Start
 #dform_container .checkboxgroup label {
 text-transform: none;
 font-size: 20px;
+position: relative;
+top: 5px;
 }
+
+#dform_container .checkboxgroup label
 
 /*KS: Removes default border */
 .mchk-gov .checkboxgroup{
@@ -1330,6 +1334,8 @@ font-size: 20px;
 .mchk-check br {
 display: none;
 }
+
+
 
 /*KS: Custom gov multi-checkbox - End
 -----------------------------------------------*/
