@@ -2181,6 +2181,53 @@ FIELDSET & ONE TOO MANY
       border-left: 10px solid #002e6f;
   }
   
+  
+/*
+-----------------------------------------------
+FEEDBACK FORM
+-----------------------------------------------
+*/
+.dform_section_rating_area{
+    text-align: center;
+}
+
+#dform_page_rating p {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+#dform_page_rating textarea {
+    margin: 0 auto;
+}
+
+.star-box{
+    height: 130px;
+}
+
+.star {
+display:inline-block;
+font-size:52px;
+width: 80px;
+transition: 0.4s all;
+}
+
+
+[data-rating]:focus {
+    text-shadow: 0 0 8px 8px #ffef99;
+}
+
+
+[data-type='next'] {
+    float:none;
+}
+
+
+#dform_page_rating button {
+    margin: 20px 25px;
+    width: 170px;
+    text-align: center !important;
+    
+}
 /*
 -----------------------------------------------
 SCC MEDIA RULES
@@ -2198,6 +2245,13 @@ SCC MEDIA RULES
 }
 }
 
+
+@media only screen and (max-width: 900px) {
+  .star {
+    width: 50px;
+}
+
+}
 
 
 @media only screen and (max-width: 700px) {
@@ -2220,8 +2274,6 @@ SCC MEDIA RULES
 }
 
 
-
-
 }
 
 @media only screen and (max-width: 450px) {
@@ -2233,4 +2285,12 @@ SCC MEDIA RULES
  }
      
  }
+ 
+ 
+ @media only screen and (max-width: 400px) {
+  .star {
+    width: 60px;
+}
+
+}
 
