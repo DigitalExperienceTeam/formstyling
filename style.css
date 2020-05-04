@@ -19,6 +19,11 @@ margin: 0 auto;
 background: #f6f0ef;
 }
 
+
+hr {
+    margin-bottom: 50px;
+}
+
 #dform_container p {
     font-size: 20px;
     line-height: 130%;
@@ -1226,6 +1231,7 @@ text-transform: none;
 font-size: 20px;
 position: relative;
 top: 5px;
+left: 7px;
 }
 
 #dform_container .checkboxgroup label
