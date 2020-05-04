@@ -170,6 +170,10 @@ color: #fff;
 background: rgb(82, 122, 161) !important;
 }
 
+[data-type='prev'] {
+    margin-right: 50px !important;
+}
+
 [data-type='next'] {
 float: right;
 }
