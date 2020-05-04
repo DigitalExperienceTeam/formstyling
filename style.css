@@ -39,7 +39,7 @@ hr {
     margin: 0 auto 60px auto;
 }
 
-#dform_container area {
+#dform_container .area {
     margin-bottom: 0;
 }
 
