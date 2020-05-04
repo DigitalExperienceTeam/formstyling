@@ -967,6 +967,9 @@ KS: Custom gov radio buttons - Start
 #dform_container .radiogroup label {
 text-transform: none;
 font-size: 20px;
+position: relative;
+top: 3px;
+left: 7px;
 }
 
 /*KS: The main clickable element - it's the width of the area */
