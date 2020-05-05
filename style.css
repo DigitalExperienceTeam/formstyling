@@ -2280,8 +2280,29 @@ transition: 0.4s all;
     margin: 20px 25px;
     width: 170px;
     text-align: center !important;
-    
 }
+
+.thankyou {
+    border: 2px solid #000;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.cont-link:first-of-type {
+    margin-top: 30px;
+}
+
+.cont-link::before {
+    content: "\25FC";
+    color: #002e6f;
+    margin-right: 5px;
+    font-size: 2em;
+    line-height: 0;
+    position: relative;
+    top: 6px;
+}
+
 /*
 -----------------------------------------------
 SCC MEDIA RULES
