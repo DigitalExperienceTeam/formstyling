@@ -2270,6 +2270,9 @@ transition: 0.4s all;
     text-shadow: 0 0 8px 8px #ffef99;
 }
 
+.focussed {
+    color: rgb(255, 215, 0) !important;
+}
 
 [data-type='next'] {
     float:none;
