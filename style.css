@@ -1189,9 +1189,9 @@ background: #fff;
 
 /*KS: Checkbox error message is dirrent*/
 .chk-gov  .dform_validationMessage{
-    position: static !important;
-    top: -22px;
-    left: 0px;
+    position: absolute !important;
+    top: -30px;
+    left: 30px;
     margin-left: -33px;
     font-size: 1rem !important;
     font-weight: bold !important;
