@@ -455,7 +455,8 @@ KS: file-gov Start
     cursor: pointer;
     opacity: 0;
     width: 100% !important;/*Ã­ Â½Ã­Â³Â±*/
-    margin-bottom: 2px !important;
+    margin-bottom: 10px !important;
+    margin-top: 20px !important;
 }
 
 .file-gov input:disabled {
@@ -1190,7 +1191,7 @@ background: #fff;
 /*KS: Checkbox error message is dirrent*/
 .chk-gov  .dform_validationMessage{
     position: absolute !important;
-    top: -30px;
+    top: -32px;
     left: 30px;
     margin-left: -33px;
     font-size: 1rem !important;
