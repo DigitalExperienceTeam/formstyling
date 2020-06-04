@@ -106,6 +106,28 @@ NAVIGATION
 position: absolute;
 }
 
+#dform_container #dform_navigation li {
+margin-top: 10px;
+border: 1px solid #888;
+color: #fff;
+transition: 0.4s all;
+background: #888;
+border-radius: 5px;
+}
+
+#dform_container #dform_navigation li.selected {
+background: #002e6f;
+color: #fff;
+border: solid 1px #002e6f;
+
+}
+
+#dform_container #dform_navigation li:hover,  #dform_container #dform_navigation li.selected:hover {
+    background: #438dcc;
+    color: #fff;
+    border: solid 1px #438dcc;
+}
+
 /*
 -----------------------------------------------
 HEADINGS
