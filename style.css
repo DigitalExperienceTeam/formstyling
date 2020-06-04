@@ -2348,6 +2348,10 @@ SCC MEDIA RULES
     width: 90%;
 }
 
+#dform_pagenav {
+    position: static;
+    width: 100%;
+}
 
 #dform_container input, #dform_container select, #dform_container textarea, #dform_container .searchwidget select {
     min-width: 90%;
