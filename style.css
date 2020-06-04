@@ -2269,11 +2269,17 @@ transition: 0.4s all;
 
 [data-rating]:focus {
     text-shadow: 0 0 8px 8px #ffef99;
+    text-decoration: underline;
 }
 
 .focussed {
     color: rgb(255, 215, 0) !important;
 }
+
+.unfocussed {
+    color: #333 !important;
+}
+
 
 [data-type='next'] {
     float:none;
