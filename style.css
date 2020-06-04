@@ -285,8 +285,8 @@ KS: searches - Start
     border-color: #b03535 !important;
 }
 
-.search-gov .dform_widgeterror > legend{
-    background: #b03535 !important;
+.search-gov .dform_widgeterror input{
+    border-color: #d45252 !important;
 }
 
 .search-gov .dform_validationMessage{
