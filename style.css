@@ -2354,6 +2354,7 @@ SCC MEDIA RULES
 
 #dform_navigation {
     width: 90%;
+    margin: 0 auto !important;
 }
 
 #dform_container input, #dform_container select, #dform_container textarea, #dform_container .searchwidget select {
