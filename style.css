@@ -325,7 +325,7 @@ KS: searches - Start
     font-family: "franklin-gothic-urw",sans-serif;
 }
 
-#dform_widget_ps_property_searchholder {
+.search-gov .container {
     margin: 0 auto 15px 0 !important;
 }
 
