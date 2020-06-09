@@ -2296,7 +2296,6 @@ transition: 0.4s all;
 
 
 [data-rating]:focus {
-    text-shadow: 0 0 8px 8px #ffef99;
     text-decoration: underline;
 }
 
@@ -2338,6 +2337,13 @@ transition: 0.4s all;
     font-size: 20px;
     line-height: 0;
     position: relative;
+}
+
+.star-note {
+    font-size: 1em !important;
+    font-weight: bold !important;
+    max-width: 450px;
+    margin: 15px auto;
 }
 
 /*
