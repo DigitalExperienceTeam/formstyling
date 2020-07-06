@@ -806,7 +806,7 @@ margin-bottom: 20px !important;
 .txta-gov textarea{
     border: 2px solid #222 !important;
     font-family: "franklin-gothic-urw",sans-serif;
-	min-width: 400px;
+	max-width: 90%;
 	border-radius: 3px;
 }
 
@@ -2367,12 +2367,6 @@ SCC MEDIA RULES
 }
 }
 
-@media only screen and (max-width: 900px) {
-  .star {
-    width: 50px;
-}
-
-}
 
 @media only screen and (max-width: 1100px) {
 
@@ -2380,11 +2374,16 @@ SCC MEDIA RULES
 min-width: 90%
 }
 
-#dform_container textarea {
-    max-width: 90% !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .star {
+    width: 50px;
 }
 
 }
+
+
 
 @media only screen and (max-width: 800px) {
     
