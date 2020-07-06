@@ -236,8 +236,9 @@ float: right;
 background: #456687 !important; 
 }
 
-
-
+#dform_container button:focus span{
+    text-decoration: underline;
+}
 
 /*
 -----------------------------------------------
