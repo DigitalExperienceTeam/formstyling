@@ -83,8 +83,7 @@ label span {
 }
 
 #dform_container input, 
-#dform_container select, 
-#dform_container textarea {
+#dform_container select {
     min-width: 400px;
     font-size: 1.2rem;
 }
@@ -808,6 +807,7 @@ margin-bottom: 20px !important;
     font-family: "franklin-gothic-urw",sans-serif;
 	max-width: 90%;
 	border-radius: 3px;
+	font-size: 1.2rem;
 }
 
 /*KS: style when field is focused - and when readable*/
