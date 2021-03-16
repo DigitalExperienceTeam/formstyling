@@ -36,7 +36,7 @@ hr {
 }
 
 #dform_container .container {
-    margin: 0 auto 60px auto;
+    margin: 0 auto 30px auto;
 }
 
 #dform_container .area {
@@ -807,7 +807,7 @@ margin-bottom: 20px !important;
     font-family: "franklin-gothic-urw",sans-serif;
 	max-width: 90% !important;
 	border-radius: 3px;
-	font-size: 1.2rem;
+	font-size: 1.2rem !important;
 }
 
 /*KS: style when field is focused - and when readable*/
