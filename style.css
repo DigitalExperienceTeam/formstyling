@@ -1372,6 +1372,7 @@ left: 7px;
 .mchk-gov > div > fieldset{
     margin: 0 !important;
     padding-bottom: 0 !important;
+    border:0;
 }
 
 /*KS quick fix to avoid changing all mchk items*/
