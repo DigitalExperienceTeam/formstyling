@@ -4,6 +4,10 @@ BODY AND FONTS AND SPACING
 -----------------------------------------------
 */
 
+html {
+	font-size:1em !important;
+}
+
 body {
 background: #f6f0ef;
 font-family: "franklin-gothic-urw",sans-serif;
