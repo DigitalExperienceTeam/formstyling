@@ -1,12 +1,19 @@
 /*
 -----------------------------------------------
-BODY AND FONTS AND SPACING
+OVERRIDE PORTAL STYLING
 -----------------------------------------------
 */
 
 html {
 	font-size:1em !important;
 }
+
+/*
+-----------------------------------------------
+BODY AND FONTS AND SPACING
+-----------------------------------------------
+*/
+
 
 body {
 background: #f6f0ef;
