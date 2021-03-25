@@ -56,7 +56,7 @@ hr {
 }
 
 #dform_container .container {
-    margin: 0 auto 30px auto;
+    margin: 0 auto 30px auto !important; /* Now important, portal override */
 }
 
 #dform_container .area {
