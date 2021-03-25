@@ -8,6 +8,10 @@ html {
 	font-size:1em !important;
 }
 
+#dform_container .container > .ten {
+    width: 100% !important;
+}
+
 /*
 -----------------------------------------------
 BODY AND FONTS AND SPACING
