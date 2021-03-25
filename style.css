@@ -18,6 +18,18 @@ html {
 	margin-right:auto !important;
 }
 
+.progress {
+    overflow: visible !important;
+    height: auto !important;
+    margin-bottom: auto !important;
+    background-color: inherit !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+
 /*
 -----------------------------------------------
 BODY AND FONTS AND SPACING
