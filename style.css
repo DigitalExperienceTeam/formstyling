@@ -12,6 +12,11 @@ html {
     width: 100% !important;
 }
 
+.container {
+	padding:0 !important;
+	margin:auto !important;
+}
+
 /*
 -----------------------------------------------
 BODY AND FONTS AND SPACING
