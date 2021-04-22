@@ -5,7 +5,22 @@ OVERRIDE PORTAL STYLING
 */
 
 html {
-	font-size:1em !important;
+    font-size: 1em !important;
+}
+
+hr {
+    display: block;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: auto;
+margin-right: auto;
+border-style: inset !important;
+border-width: 1px !important;
+}
+
+legend {
+
+    border-bottom: 0 !important;
 }
 
 #dform_container .container > .ten {
