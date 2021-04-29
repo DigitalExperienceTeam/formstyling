@@ -2370,7 +2370,7 @@ transition: 0.4s all;
 
 #dform_page_rating button {
     margin: 20px 25px;
-    width: 170px;
+   /* width: 170px; DB - Changed due to altered button layout */
     text-align: center !important;
 }
 
