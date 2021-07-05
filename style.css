@@ -381,9 +381,6 @@ KS: searches - Start
     font-family: "franklin-gothic-urw",sans-serif;
 }
 
-.dform_widget_ps_property_resultholder {
-    width: 100%;
-}
 
 .search-gov .container {
     margin: 0 auto 15px 0 !important;
@@ -2418,7 +2415,7 @@ SCC MEDIA RULES
 @media only screen and (max-width: 1186px) {
     
 .dform_widget_search_results {
-    width: 400px;
+    max-width: 400px;
 }    
     
 .dform_widget_search_closeresults {
@@ -2441,8 +2438,6 @@ min-width: 90%
 }
 
 }
-
-
 
 @media only screen and (max-width: 800px) {
     
