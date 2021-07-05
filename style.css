@@ -339,7 +339,7 @@ KS: searches - Start
 }
 
 #dform_container .searchwidget select  {
-    min-width: 400px;
+    /*min-width: 400px;*/
 	width: 400px;
 }
 
