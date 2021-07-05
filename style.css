@@ -338,10 +338,6 @@ KS: searches - Start
     border-radius: 0 !important;
 }
 
-#dform_container .searchwidget select  {
-    /*min-width: 400px;*/
-	width: 400px;
-}
 
 .cs-gov legend, .ss-gov legend, .ps-gov legend, .os-gov legend, .search-gov legend {
     position: relative !important;
