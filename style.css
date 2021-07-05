@@ -316,7 +316,7 @@ KS: searches - Start
 .search-gov .dform_widgeterror input{
     border-color: #d45252 !important;
 }
-
+ .
 .search-gov .dform_validationMessage{
     font-size: 1rem !important;
     font-weight: bold !important;
@@ -325,6 +325,10 @@ KS: searches - Start
 .dform_widget_search_closeresults:after {
     content: "Back";
     font-family: "franklin-gothic-urw",sans-serif;
+}
+
+.dform_widget_ps_property_resultholder {
+    width: 100%;
 }
 
 .search-gov .container {
