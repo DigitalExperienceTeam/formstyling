@@ -1,8 +1,56 @@
 /*
 -----------------------------------------------
+OVERRIDE PORTAL STYLING
+-----------------------------------------------
+*/
+
+html {
+    font-size: 1em !important;
+}
+
+hr {
+    display: block;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: auto;
+margin-right: auto;
+border-style: inset !important;
+border-width: 1px !important;
+}
+
+legend {
+
+    border-bottom: 0 !important;
+}
+
+#dform_container .container > .ten {
+    width: 100% !important;
+}
+
+.container {
+	padding:0 !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+
+.progress {
+    overflow: visible !important;
+    height: auto !important;
+    margin-bottom: auto !important;
+    background-color: inherit !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+
+/*
+-----------------------------------------------
 BODY AND FONTS AND SPACING
 -----------------------------------------------
 */
+
 
 body {
 background: #f6f0ef;
@@ -27,6 +75,7 @@ hr {
 #dform_container p {
     font-size: 20px;
     line-height: 130%;
+    margin: 0 0 20px !important;
 }
 
 #dform_container li {
@@ -36,7 +85,7 @@ hr {
 }
 
 #dform_container .container {
-    margin: 0 auto 60px auto;
+    margin: 0 auto 30px auto;
 }
 
 #dform_container .area {
@@ -811,7 +860,7 @@ margin-bottom: 20px !important;
     font-family: "franklin-gothic-urw",sans-serif;
 	max-width: 90% !important;
 	border-radius: 3px;
-	font-size: 1.2rem;
+	font-size: 1.2rem !important;
 }
 
 /*KS: style when field is focused - and when readable*/
@@ -1376,6 +1425,7 @@ left: 7px;
 .mchk-gov > div > fieldset{
     margin: 0 !important;
     padding-bottom: 0 !important;
+    border:0 !important;
 }
 
 /*KS quick fix to avoid changing all mchk items*/
@@ -2221,6 +2271,7 @@ abbr{
 /*CPE overrite - END*/
 /*Edinburgh portal adaption END*/
 /*To fix font issue on IE based on this answer https://stackoverflow.com/a/14506177 and https://stackoverflow.com/q/14207425*/
+
 @font-face {
     font-family: 'SpartaIcons';
     font-style: normal;
@@ -2323,7 +2374,7 @@ transition: 0.4s all;
 
 #dform_page_rating button {
     margin: 20px 25px;
-    width: 170px;
+   /* width: 170px; DB - Changed due to altered button layout */
     text-align: center !important;
 }
 
