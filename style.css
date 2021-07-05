@@ -371,11 +371,6 @@ KS: searches - Start
     font-weight: bold !important;
 }
 
-#dform_container .dform_widget_search_closeresults {
-    margin-left: 0;
-    margin-right: 40px;
-}
-
 .dform_widget_search_closeresults:after {
     content: "Back";
     font-family: "franklin-gothic-urw",sans-serif;
