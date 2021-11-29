@@ -371,8 +371,8 @@ KS: searches - Start
 }
 
 .dform_widget_search_closeresults:after {
-    content: "Back";
-    font-family: "franklin-gothic-urw",sans-serif;
+    content: "Back" !important;
+    font-family: "franklin-gothic-urw",sans-serif !important;
 }
 
 
@@ -912,7 +912,7 @@ KS: warning notice - Start
 .warning-notice {
     position: relative;
     background-color: #FFBABA;
-    padding: 10px 10px 10px 55px;
+    padding: 25px 10px 10px 55px;
     border: solid #b10e1e;
     border-width: 5px ;
     margin-bottom: 15px;
@@ -965,7 +965,8 @@ KS: Info notice - Start
 .info-notice {
     position: relative;
     background-color: #BDE5F8;
-    padding: 0px 10px 0px 55px;
+/*    padding: 0px 10px 0px 55px;*/
+    padding: 20px 20px 0px 40px;
     /*padding-left: 55px;
     padding-top:10px;
     padding-bottom:10px;*/
