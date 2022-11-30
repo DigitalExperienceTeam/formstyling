@@ -818,10 +818,35 @@ KS: txt (and text like fields) Start
     /*KS: but I added this just incase you want that functionality again*/
     min-height: 1px !important;
 }
+/*DB: This hides error highlight when field is not focused - Commented and replaced 30/11/2022
 .txt-gov input[readonly],.dt-gov input[readonly],.eml-gov input[readonly],.num-gov input[readonly],.pas-gov input[readonly],.tel-gov input[readonly],.time-gov input[readonly],.field-gov input[readonly] {
     border-color: #DDD !important;
     background: #DDD;
+}*/
+/* Replaced above */
+.txt-gov input[readonly]:not(.dform_fielderror),
+.dt-gov input[readonly]:not(.dform_fielderror),
+.eml-gov input[readonly]:not(.dform_fielderror),
+.num-gov input[readonly]:not(.dform_fielderror),
+.pas-gov input[readonly]:not(.dform_fielderror),
+.tel-gov input[readonly]:not(.dform_fielderror),
+.time-gov input[readonly]:not(.dform_fielderror),
+.field-gov input[readonly]:not(.dform_fielderror), {
+    border-color:#ddd !important;
+    background-color:#ddd !important;
 }
+.txt-gov input[readonly].dform_fielderror,
+.dt-gov input[readonly].dform_fielderror,
+.eml-gov input[readonly].dform_fielderror,
+.num-gov input[readonly].dform_fielderror,
+.pas-gov input[readonly].dform_fielderror,
+.tel-gov input[readonly].dform_fielderror,
+.time-gov input[readonly].dform_fielderror,
+.field-gov input[readonly].dform_fielderror {
+    background-color:#ddd !important;
+    border-color:#B03535 !important;
+}
+
 /*KS: txt (and text like fields) end
 -----------------------------------------------*/
 
