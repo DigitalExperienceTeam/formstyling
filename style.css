@@ -818,7 +818,7 @@ KS: txt (and text like fields) Start
     /*KS: but I added this just incase you want that functionality again*/
     min-height: 1px !important;
 }
-/*DB: This hides error highlight when field is not focused - Commented and replaced 30/11/2022
+/*DB: This hides error highlight when field is not focused 30/11/2022 */
 .txt-gov input[readonly],.dt-gov input[readonly],.eml-gov input[readonly],.num-gov input[readonly],.pas-gov input[readonly],.tel-gov input[readonly],.time-gov input[readonly],.field-gov input[readonly] {
     border-color: #DDD !important;
     background: #DDD;
