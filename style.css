@@ -1470,23 +1470,22 @@ PRIVACY NOTICE
 -----------------------------------------------
 */
 
-
 .privacy .box {
-border-left: 20px solid #e60054;
-padding-left: 25px !important;
-position: relative;
-margin-bottom: 30px;
+    border-left: 20px solid #e60054;
+    padding-left: 25px !important;
+    position: relative;
+    margin-bottom: 30px;
 }
 
 .privacy .info-notice {
     position: relative;
     background-color: transparent;
     padding: 0;
-	border: none;
+    border: none;
 }
 
 .privacy .info-notice p {
-font-size: 20px;
+    font-size: 20px;
 }
 
 .info-notice-icon {
@@ -1494,15 +1493,52 @@ font-size: 20px;
 }
 
 #dform_container .privacy .dform_widget_type_checkbox {
-padding-bottom: 0;
-margin-bottom:0
+    padding-bottom: 0;
+    margin-bottom: 0
 }
 
 #dform_container .privacy .label, #dform_container .privacy label {
-margin-bottom: 0;
-font-size: 20px;
+    margin-bottom: 0;
+    font-size: 20px;
 }
 
+/* 
+-----------------------------------------------
+AGENT NOTICE
+-----------------------------------------------
+*/
+
+.agent .box {
+    border-left: 20px solid #00FF21;
+    padding-left: 25px !important;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.agent .info-notice {
+    position: relative;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.agent .info-notice p {
+    font-size: 20px;
+}
+
+.info-notice-icon {
+    display: none;
+}
+
+#dform_container .agent .dform_widget_type_checkbox {
+    padding-bottom: 0;
+    margin-bottom: 0
+}
+
+#dform_container .agent .label, #dform_container .agent label {
+    margin-bottom: 0;
+    font-size: 20px;
+}
 
 /* 
 -----------------------------------------------
